@@ -1,4 +1,4 @@
-s = "aabbbceeeyu" # // a2b3c1 
+s = "aabbbceeeyu" # // a2b3c1e3y1u1
 
 new=""
 res=""
