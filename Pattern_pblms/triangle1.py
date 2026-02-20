@@ -60,3 +60,16 @@ while i<n:
 
 
 
+
+n=4 
+
+for i in range(n):
+    new=""
+    for s in range(i):
+        new+="  "
+    for j in range(1,n-i+1):
+        new+="* "
+    print(new)
+
+
+#
