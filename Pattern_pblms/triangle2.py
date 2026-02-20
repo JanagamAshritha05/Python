@@ -14,7 +14,7 @@ for i in range(1,n+1):
         new+="* " 
     print("  "*(n-i)+new)
     
-
+#
 
 n = 4 
 
@@ -47,4 +47,4 @@ while i <= n:
     i += 1
 
 
-    
+
