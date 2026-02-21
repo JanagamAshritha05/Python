@@ -47,4 +47,18 @@ while i <= n:
     i += 1
 
 
+# 
+n=4 
+
+i=1
+while i<=n:
+
+    j=0
+    new=""
+    while j<i:
+        new+="* " 
+        j+=1 
+
+    print("  "*(n-i)+new)
+    i+=1 
 
