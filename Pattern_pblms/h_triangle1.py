@@ -28,8 +28,8 @@ n = 5
 
 for i in range(1, n+1):
     for j in range(1,i+1):
-        stars1="  "*(n-i) + "* "*i 
-        stars2="  "*(n-i) + "* " + "  "*(i-2) + "*"
+        stars1="  "*(n-j) + "* "*i 
+        stars2="  "*(n-j) + "* " + "  "*(i-2) + "*"
 
     if i==1 or i==n:
         print(stars1) 
