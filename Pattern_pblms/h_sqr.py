@@ -22,38 +22,44 @@ while i<=n:
     
 
 #
-n=5 
+
+
+n = 5 
 
 for i in range(1, n+1):
-    for j in range(1,n+1):
-        star1="* "*n 
-        star2="  "*(n-2) 
-    if i==1 or i==n:
-        print(star1)
-    else:
-        print("* " + star2 +"*")
+    row=""
+    for j in range(1, n+1):
+        if i==1 or i==n:
+            row+="* " 
+        elif j==1 or j==n:
+            row+="* " 
+        else:
+            row+="  " 
+    print(row)
         
 
 # 
 
 
+
 n=5 
 
 i=1 
+
 while i<=n:
-
-    j=0 
-    while j<n:
-        star1="* "*n 
-        star2="* " + "  "*(n-2) + "*" 
+    row=""
+    j=1
+    while j<=n:
+        if i==1 or i==n:
+            row+="* " 
+        elif j==1 or j==n:
+            row+="* " 
+        else:
+            row+="  "
         j+=1 
-    
-    if i==1 or i==n:
-        print(star1)
-    else:
-        print(star2)
-
+    print(row) 
     i+=1 
+
 
     
 
