@@ -12,49 +12,52 @@ for i in range(1, n+1):
 n = 5 
 
 i=1 
-
 while i<=n:
-
     if i==1 or i==n:
         print("  "*(n-i) + "* "*i)
     else:
         print("  "*(n-i) + "* " + "  "*(i-2) + "*")
-
     i+=1  
 
     
 #
-n = 5 
-
+n = 5
 for i in range(1, n+1):
-    for j in range(1,i+1):
-        stars1="  "*(n-j) + "* "*i 
-        stars2="  "*(n-j) + "* " + "  "*(i-2) + "*"
+    row=""
+    spaces="  "*(n-i) 
+    for j in range(1, i+1):
+        if i==1 or i==n:
+            row+="* " 
+        elif j==1 or j==i:
+            row+="* " 
+        else:
+            row+="  " 
+    print(spaces + row) 
 
-    if i==1 or i==n:
-        print(stars1) 
-    else:
-        print(stars2)
+
+
 
 
 #
-n = 5 
+n = 5
 
-i = 1 
-
+i=1 
 while i<=n:
-
-    j=0 
-    while j<i:
-        stars1 = "  "*(n-i) + "* "*i 
-        stars2 = "  "*(n-i) + "* " + "  "*(i-2) + "*" 
+    row=""
+    spaces="  "*(n-i) 
+    j=1 
+    while j<=i:
+        if i==1 or i==n:
+            row+="* " 
+        elif j==1 or j==i:
+            row+="* " 
+        else:
+            row+="  "
         j+=1 
+    print(spaces + row)
+    i+=1 
 
-    if i==1 or i==n:
-        print(stars1) 
-    else:
-        print(stars2) 
 
-    i+= 1 
+
 
     
