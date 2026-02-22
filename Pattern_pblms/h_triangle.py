@@ -25,35 +25,40 @@ while i<=n:
     
 
 # 
-n = 5 
+
+n = 5
 
 for i in range(1, n+1):
+    row="" 
     for j in range(1, i+1):
-        stars1="* "*i 
-        stars2="* " + "  "*(i-2) +"*" 
-    if i==1 or i==n:
-        print(stars1) 
-    else:
-        print(stars2)
+        if i==1 or i==n:
+            row+="* " 
+        elif j==1 or j==i:
+            row+="* " 
+        else:
+            row+="  " 
+    print(row)
+            
     
 
 # 
 
-n = 5 
+n
+n = 5
 
 i=1 
-
 while i<=n:
-
-    j=0 
-    while j<i:
-        stars1="* "*i 
-        stars2="* " + "  "*(i-2) + "*" 
+    row="" 
+    j=1 
+    while j<=i:
+        if i==1 or i==n:
+            row+="* " 
+        elif j==1 or j==i:
+            row+="* " 
+        else:
+            row+="  " 
         j+=1 
-    
-    if i==1 or i==n:
-        print(stars1)
-    else:
-        print(stars2)
+    print(row) 
     i+=1 
+
 
