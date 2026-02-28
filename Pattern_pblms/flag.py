@@ -12,8 +12,6 @@ for i in range(1, n*2-1):
             row+="  " 
     print(row) 
 
-
-
 # 
 n=5 
 
