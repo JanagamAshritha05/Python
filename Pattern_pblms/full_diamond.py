@@ -44,7 +44,6 @@ for i in range(1, n):
 # 
 
 n = 5 
-
 i = 1 
 while i<=n:
     row="" 
