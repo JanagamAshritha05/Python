@@ -26,6 +26,7 @@ while i<len(s):
 print("Vowels:", v)
 print("consonants", c) 
 
+
 # 
 s="programming".lower()
 v=sum(1 for char in s if char in "aeiou")
