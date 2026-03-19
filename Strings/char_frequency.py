@@ -40,5 +40,3 @@ for char, count in freq.items():
     
     
     
-    
-    
