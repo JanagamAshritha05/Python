@@ -25,6 +25,7 @@ for char, count in freq.items():
     if count>1:
         print(char)
     
+    
 #
 s = "programming"
 freq = {}
