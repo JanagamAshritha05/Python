@@ -1,4 +1,3 @@
-
 s="I love programming"
 long_word=""
 word=""
