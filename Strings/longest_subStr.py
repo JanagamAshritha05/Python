@@ -11,7 +11,7 @@ print(new)
 print(len(new))
 
 #
-s="abcabcbb"
+s="abcaaaabcbb"
 max_str=""
 for i in range(len(s)):
     new=""
