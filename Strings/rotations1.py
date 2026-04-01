@@ -23,17 +23,17 @@ else:
 
 # 
 s1="python"
-s2="python"
+s2="onpyth"
 i=0 
 while i<len(s1):
     res=s1[-i:] + s1[:-i]
     if res==s2:
-        print(i)
+        res=i
         break 
     else:
-        print("No Match")
+        res="No Match"
     i+=1
-
+print(res)
 
 #
 s1 = "python"
