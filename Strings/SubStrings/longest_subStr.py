@@ -24,7 +24,7 @@ for i in range(len(s)):
         max_str=new 
 print(max_str)
 print(len(max_str))
-        
+
 #
 s="abcabcbb"
 max_str=""
@@ -43,7 +43,6 @@ while i<len(s):
 
 print(max_str)
 print(len(max_str))
-
 
 
 
