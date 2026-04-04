@@ -40,3 +40,7 @@ for i in range(len(s)-len(sub)+1):
 print(count)
 
 
+
+
+
+

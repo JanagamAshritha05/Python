@@ -27,6 +27,7 @@ while i<len(s):
     i+=1 
 
 
+
 '''
 Find all substrings of a string
 i/p:abc  o/p:   a
