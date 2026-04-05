@@ -20,6 +20,7 @@ while i<len(s):
 print(count)
 
 
+
 #
 s="abc"
 n=len(s)
