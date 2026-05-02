@@ -11,7 +11,6 @@ for i in range(1, n):
     print(stars1 + "  "*2*i + "* "*(n-i))
 
 
-
 # 
 n=5
 
