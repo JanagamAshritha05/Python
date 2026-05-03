@@ -31,7 +31,6 @@ while i<=n:
     print(row) 
     i+=1 
     
-
 # 
 n=6
 
