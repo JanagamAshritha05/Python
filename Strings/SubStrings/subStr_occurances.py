@@ -39,6 +39,16 @@ for i in range(len(s)-len(sub)+1):
         
 print(count)
 
+#
+s="banana"
+sub="ana"
+count=0 
+for i in range(len(s)):
+    for j in range(i+1, len(s)+1):
+        sub1=s[i:j]
+        if sub1==sub:
+            count+=1 
+print(count)
 
 
 
