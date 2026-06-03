@@ -35,5 +35,12 @@ while i < len(lst):
 print(res)
 
 # 
-print([1,2] + [3, 4])
+lst = [[1, 2], [3, 4], [5, 6]]
+
+res = []
+
+for sublist in lst:
+    res += sublist
+
+print(res)
 
