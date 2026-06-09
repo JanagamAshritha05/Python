@@ -1,5 +1,5 @@
 '''
-Maximum contiguous array 
+Print the subarray having maximum sum.
 
 lst = [2, -4, 5, -1, 2, -3]
 o/p: [5, -1, 2]
