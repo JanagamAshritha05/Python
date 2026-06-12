@@ -12,7 +12,7 @@ for i in range(len(lst)):
 
 
 # 
-lst = [2, 7, 11, 15]
+lst = [2, 7, 5, 4, 11, 15]
 target = 9
 
 d = {}
@@ -25,7 +25,7 @@ for i in range(len(lst)):
 
     if complement in d and d[complement] != i:
         print([i, d[complement]])
-        break 
+        break
     
     
 
