@@ -49,6 +49,22 @@ else:
     print("Not an Anagram")
     
     
+# 
+s1="listen"
+s2="silent"
+freq = {} 
+
+if len(s1) != len(s2):
+    print("Not an anagram")
+else:
+    for i in range(len(s1)):
+        freq[s1[i]] = freq.get(s1[i], 0) + 1 
+        freq[s2[i]] = freq.get(s2[i], 0) - 1 
+
+    if all(val == 0 for val in freq.values()):
+        print("Anagram")
+    else:
+        print("Not an anagram")
     
 '''
 Two strings are Anagram if they contain same characters with same frequency just in different order.

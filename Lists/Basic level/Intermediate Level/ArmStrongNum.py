@@ -31,3 +31,6 @@ total = sum(int(digit) ** digits for digit in str(n))
 print("Armstrong Number" if total == n else "Not Armstrong")
 
 
+
+
+

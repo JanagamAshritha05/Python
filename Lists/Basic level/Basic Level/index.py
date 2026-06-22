@@ -15,3 +15,8 @@ for i in range(len(lst)):
     if lst[i] == 30:
         print(i)
 
+
+
+
+
+
