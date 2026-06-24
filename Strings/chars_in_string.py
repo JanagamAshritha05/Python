@@ -22,4 +22,17 @@ print(len(s))
 s="python" 
 print(sum(1 for char in s))
 
+# 
+s = "python"
+
+def find_len(s):
+    if s == "":
+        return 0 
+    
+    return 1 + find_len(s[1:])
+
+print(find_len(s))
+
+
+
 
