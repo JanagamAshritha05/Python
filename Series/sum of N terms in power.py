@@ -17,3 +17,5 @@ for i in range(1,n+1):
     sum+=term 
     power+=2 
 print(sum)
+
+
